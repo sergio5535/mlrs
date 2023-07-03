@@ -1,0 +1,45 @@
+.homeDiv {
+    background-color: grey;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.flexDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moleHome {
+    width: 100%;
+    box-shadow: 2px 2px #5B8FB9;
+    border-radius: 10%;
+}
+
+.marginMole {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .homeDiv {
+        background-color: #22272f;
+        width: 100%;
+        padding: 20px;
+        color: white;
+        margin-top: 20px;
+        border: 1px solid black;
+        border-radius: 4%;
+        box-shadow: 2px 2px rgb(0, 0, 0);
+
+    }
+
+    .flexDiv {
+        display: grid;
+    }
+
+}

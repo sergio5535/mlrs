@@ -1,0 +1,215 @@
+body {
+    background-color: #22272f !important;
+    height: 100%;
+}
+
+nav {
+    box-shadow: 0 -5px 3px -3px black, 0 5px 9px -3px black;
+}
+
+.midNav {
+    position: relative;
+    top: 20%;
+}
+
+.homeDiv {
+    background-color: #22272f;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.aboutDiv {
+    background-color: #4b5668;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.moleHome {
+    width: 100%;
+    box-shadow: 2px 2px #5B8FB9;
+    border-radius: 10%;
+}
+
+.hapeHome {
+    width: 60%;
+    height: 200px;
+    box-shadow: 2px 2px #5B8FB9;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.hapeAbout {
+    width: 60%;
+    height: 300px;
+    box-shadow: 2px 2px #5B8FB9;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.hapeText {
+    text-align: justify;
+}
+
+.flexDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexDiv2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marginMole {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.beritaDiv {
+    background-color: #22272f;
+    border: 1px solid black;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5%;
+    color: white;
+    margin: 20px 10px 20px;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.foot {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -5px 9px -3px black, 0 5px 9px -3px black;
+}
+
+.footerLink {
+    text-decoration: none;
+}
+
+.footerSpace {
+    padding-top: 20px;
+}
+
+.btnNews {
+    display: flex;
+    justify-content: center;
+}
+
+.heroesList {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.heroesTable {
+    text-align: center;
+}
+
+.heroesText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.loginForm {
+    padding: 40px;
+    background-color: #2e343f;
+    border-radius: 5%;
+}
+
+.loginTitle {
+    text-align: center;
+}
+
+.loginButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .homeDiv {
+        background-color: #22272f;
+        width: 100%;
+        padding: 20px;
+        color: white;
+        margin-top: 20px;
+        border: 1px solid black;
+        border-radius: 4%;
+        box-shadow: 2px 2px rgb(0, 0, 0);
+
+    }
+
+    .hapeHome {
+        width: 60%;
+        height: 150px;
+        box-shadow: 2px 2px #5B8FB9;
+        border-radius: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .moleHome {
+        width: 50%;
+        box-shadow: 2px 2px #5B8FB9;
+        border-radius: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flexDiv {
+        display: grid;
+    }
+
+    .flexDiv2 {
+        display: grid;
+    }
+
+    .marginMole {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .beritaDiv {
+        background-color: #22272f;
+        width: 100%;
+        border: 1px solid black;
+        padding: 20px;
+        color: white;
+        margin: 20px 0px 20px;
+    }
+
+    .flexCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+
+}
